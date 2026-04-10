@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Cormorant_Garamond } from "next/font/google";
+import IterationSwitcher from "@/components/IterationSwitcher";
 import "./globals.css";
 
 const body = Inter({
@@ -47,7 +48,10 @@ export default function RootLayout({
       lang="en"
       className={`${body.variable} ${heading.variable} antialiased`}
     >
-      <body className="min-h-screen bg-cream text-ink">{children}</body>
+      <body className="min-h-screen bg-cream text-ink">
+        <IterationSwitcher />
+        {children}
+      </body>
     </html>
   );
 }
