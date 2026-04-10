@@ -1,0 +1,122 @@
+@import "tailwindcss";
+
+:root {
+  /* Editorial Minimal palette */
+  --cream: #FAF8F2;
+  --cream-warm: #F5F0E5;
+  --ink: #1A1A1A;
+  --ink-soft: #2F2F2F;
+  --gold: #A88B5C;
+  --gold-light: #C4A77A;
+  --rule: #E5DFD3;
+  --muted: #8A8276;
+}
+
+@theme inline {
+  --color-cream: var(--cream);
+  --color-cream-warm: var(--cream-warm);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-gold: var(--gold);
+  --color-gold-light: var(--gold-light);
+  --color-rule: var(--rule);
+  --color-muted: var(--muted);
+  --font-sans: var(--font-body);
+  --font-display: var(--font-heading);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--cream);
+  color: var(--ink);
+  font-family: var(--font-body), system-ui, sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.005em;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: var(--cream-warm); }
+::-webkit-scrollbar-thumb { background: var(--ink); border-radius: 0; }
+
+/* Editorial typography */
+.display-xl {
+  font-family: var(--font-heading), serif;
+  font-weight: 400;
+  letter-spacing: -0.025em;
+  line-height: 0.95;
+}
+
+.display-lg {
+  font-family: var(--font-heading), serif;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  line-height: 1;
+}
+
+.eyebrow {
+  font-family: var(--font-body), sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+
+.body-serif {
+  font-family: var(--font-heading), serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* Hairline rules */
+.hairline {
+  height: 1px;
+  background: var(--ink);
+  width: 100%;
+}
+
+.hairline-rule {
+  height: 1px;
+  background: var(--rule);
+  width: 100%;
+}
+
+/* Slow zoom for editorial photos */
+@keyframes slowZoom {
+  from { transform: scale(1); }
+  to { transform: scale(1.06); }
+}
+
+.slow-zoom { animation: slowZoom 18s ease-out forwards; }
+
+/* Floating WhatsApp - minimal version */
+.whatsapp-float {
+  position: fixed;
+  bottom: 28px;
+  right: 28px;
+  z-index: 50;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: var(--ink);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--ink);
+  transition: all 0.3s;
+}
+.whatsapp-float:hover { background: var(--cream); }
+.whatsapp-float svg { color: var(--cream); transition: color 0.3s; }
+.whatsapp-float:hover svg { color: var(--ink); }
+
+/* Page number style */
+.page-num {
+  font-family: var(--font-heading), serif;
+  font-style: italic;
+  color: var(--gold);
+  font-size: 14px;
+}
