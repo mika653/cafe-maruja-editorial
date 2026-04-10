@@ -105,7 +105,7 @@ export default function FindUs() {
               </p>
               <div className="flex flex-col sm:flex-row gap-3">
                 <a
-                  href="https://wa.me/639XXXXXXXXX"
+                  href="https://wa.me/639260844793"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-[11px] tracking-[0.2em] uppercase font-semibold text-cream bg-ink px-5 py-3 hover:bg-gold hover:text-ink transition-all text-center"
@@ -113,7 +113,7 @@ export default function FindUs() {
                   WhatsApp
                 </a>
                 <a
-                  href="https://www.instagram.com/cafemaruja/"
+                  href="https://www.instagram.com/boracay.cafemaruja/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-[11px] tracking-[0.2em] uppercase font-semibold text-ink border border-ink px-5 py-3 hover:bg-ink hover:text-cream transition-all text-center"

@@ -19,7 +19,7 @@ export default function Footer() {
             </div>
             <div className="md:col-span-4 md:text-right">
               <a
-                href="https://wa.me/639XXXXXXXXX"
+                href="https://wa.me/639260844793"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block text-[11px] tracking-[0.22em] uppercase font-semibold text-ink bg-cream px-7 py-3 hover:bg-gold transition-all"
@@ -85,7 +85,7 @@ export default function Footer() {
               <ul className="space-y-2.5">
                 <li>
                   <a
-                    href="https://www.instagram.com/cafemaruja/"
+                    href="https://www.instagram.com/boracay.cafemaruja/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-cream/60 hover:text-cream transition-colors"
@@ -95,7 +95,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <a
-                    href="https://www.facebook.com/cafemaruja/"
+                    href="https://www.facebook.com/cafemaruja.boracay/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-cream/60 hover:text-cream transition-colors"
@@ -105,7 +105,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <a
-                    href="https://wa.me/639XXXXXXXXX"
+                    href="https://wa.me/639260844793"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-cream/60 hover:text-cream transition-colors"
@@ -131,7 +131,7 @@ export default function Footer() {
 
       {/* Floating WhatsApp */}
       <a
-        href="https://wa.me/639XXXXXXXXX"
+        href="https://wa.me/639260844793"
         target="_blank"
         rel="noopener noreferrer"
         className="whatsapp-float"

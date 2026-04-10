@@ -77,7 +77,7 @@ export default function Gallery() {
           <p className="font-[family-name:var(--font-heading)] italic text-lg text-muted">
             More on Instagram &mdash;{" "}
             <a
-              href="https://www.instagram.com/cafemaruja/"
+              href="https://www.instagram.com/boracay.cafemaruja/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-ink hover:text-gold transition-colors border-b border-ink hover:border-gold"
